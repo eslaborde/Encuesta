@@ -1,0 +1,174 @@
+head{
+    }
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style-image: url('https://cdn.emojidex.com/emoji/xhdpi/%E8%A7%92%E3%81%AE%E8%A8%BC.png?1438412969');
+  margin: 0; 
+  background: black;
+  font-family: 'New Rocker', cursive;
+  font-size:20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+               }
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1.5em;
+  color:red;
+}
+
+.navigation a:hover {
+  background: white;
+}
+
+@media all and (max-width: 10000px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+title{
+        border: solid 10px #800;
+        text-align: center;
+        font-size: 30px;
+        color: red;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-family: 'New Rocker', cursive;
+      }   
+
+body{
+      background-image: url('https://cdn.wallpapersafari.com/69/13/hPqruK.jpg');
+      background-color: #cccccc; 
+      background-position: center; 
+      background-repeat: repeat;
+      background-size: 800px 600px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1%;
+      width: 100%;  
+     }
+
+form{
+     font-size: 25px;
+     font-family: 'New Rocker', cursive;
+     border: solid 10px #800;
+     padding: 20px;
+     background-color: black;
+    }
+
+label{
+      color: red;  
+      font-size: 20px
+      margin: 20px 40px;
+     }
+
+input {
+        background-color: white;
+        font-family: 'New Rocker', cursive;
+        border: none;
+        color: red;
+        padding: 10px 150px;
+        text-decoration: none;
+        margin: 2px 2px;
+        cursor: pointer;
+      }
+option{
+        background-color: white;
+        font-family: 'New Rocker', cursive;
+        font-size: 20px;
+        border: none;
+        color: red;
+        padding: 10px 150px;
+        text-decoration: none;
+        margin: 2px 2px;
+        cursor: pointer;
+       }
+select{
+  width: 430px;
+  height: 40px;
+  padding: 5px;
+  color: red;
+  background-color: white;
+  font-family: 'New Rocker', cursive;
+  font-size: 20px;
+}
+select option { 
+                color: red; 
+              }
+select option:first-child{
+                          color: red;
+                         }
+
+
+textarea {
+
+              width: 630px;
+              height: 100px;
+              padding: 5px;
+              color: red;
+              background-color: white;
+              font-family: 'New Rocker', cursive;
+              font-size: 20px;
+              } 
+              
+  
+
+button:hover {
+  background: blue;
+  cursor: pointer;
+} 
+
+
+
+button{
+         display: inline-block;
+         width: 230px;
+         height: 40px;
+         padding: 5px;
+         color: red;
+         background-color: white;
+         font-family: 'New Rocker', cursive;
+         font-size: 20px;
+
+
+
+        }
+
+
+footer {
+        border: solid 10px #800;
+        text-align: center;
+        color: red;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-family: 'New Rocker', cursive;
+        font-size: 15px;
+       }
